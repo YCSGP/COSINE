@@ -1,0 +1,2 @@
+export(choose_lambda,cond.fyx,DataSimu,diff_gen,diff_gen_for3,f.test,GA_search,get_quantiles,score_scaling)
+
