@@ -1,10 +1,11 @@
 diff_gen <-
 function(data1,data2){
-    num_sample <- dim(data1)[1]
+    num_sample_1 <- dim(data1)[1]
+    num_sample_2 <- dim(data2)[1]
     num_gene <- dim(data1)[2]
     diff_expr <- rep(0,num_gene)
     diff_coex <- matrix(0,ncol=num_gene,nrow=num_gene)
-    type <- c(rep(0,num_sample),rep(1,num_sample))
+    type <- c(rep(0,num_sample_1),rep(1,num_sample_2))
 
     # calculate the statistics measuing the differential expression of each gene between the 2 groups
 
