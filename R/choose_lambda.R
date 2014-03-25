@@ -1,7 +1,7 @@
 choose_lambda <-
 function(diff_expr,diff_coex,lambda,subnet_size,num_random_sampling,best_score){
 
-    library(genalg)
+#   library(genalg)
 
     my.fun<-function(vector){
        return(diff_coex[vector[1],vector[2]])

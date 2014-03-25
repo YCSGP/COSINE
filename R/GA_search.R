@@ -1,7 +1,7 @@
 GA_search <-
 function(lambda,diff_expr,diff_coex, num_iter=1000, muCh=0.05, zToR=10){
 
-    library(genalg)
+#  library(genalg)
 
 ## define the objective scoring function for condition specific subnetwork 
 

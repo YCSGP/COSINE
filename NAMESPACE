@@ -1,11 +1,3 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
+import(MASS,genalg)
+export(choose_lambda,cond.fyx,DataSimu,diff_gen,diff_gen_for3,f.test,GA_search,get_quantiles,score_scaling)
 
-# Export all names
-exportPattern(".")
-
-# Import all packages listed as Imports or Depends
-import(
-  MASS,
-  genalg
-)

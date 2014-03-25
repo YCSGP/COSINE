@@ -1,7 +1,7 @@
 DataSimu <-
 function(){
 
-library(MASS)
+#library(MASS)
 
 cat("Generating covariance matrix......")
 

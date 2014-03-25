@@ -65,8 +65,8 @@ lambda<-set1_quantile[[2]]
 
 #Perform genetic algorithm to search-just show the first iteration here
 
-set1_GA<-GA_search(lambda[1:2],diff_expr=set1_scaled_diff[[1]],
-diff_coex=set1_scaled_diff[[2]], num_iter=1, muCh=0.05, zToR=50)
+set1_GA<-GA_search(lambda,diff_expr=set1_scaled_diff[[1]],
+diff_coex=set1_scaled_diff[[2]], num_iter=1, muCh=0.05, zToR=10)
 
 }
 
