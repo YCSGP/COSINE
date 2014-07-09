@@ -1,7 +1,9 @@
 diff_gen_for3 <-
 function(data1,data2,data3){
 
-   num_sample<-dim(data1)[1]
+   num_sample_1<-dim(data1)[1]
+   num_sample_2<-dim(data2)[1]
+   num_sample_3<-dim(data3)[1]
    num_gene<-dim(data1)[2]
    diff_expr<-rep(0,num_gene)
    diff_coex<-matrix(0,ncol=num_gene,nrow=num_gene)
@@ -10,7 +12,7 @@ function(data1,data2,data3){
 
    for(i in 1:num_gene){
        data<-c(data1[,i],data2[,i],data3[,i])
-       type<-c(rep(1,num_sample),rep(2,num_sample),rep(3,num_sample))
+       type<-c(rep(1,num_sample_1),rep(2,num_sample_2),rep(3,num_sample_3))
        diff_expr[i]<-f.test(data,type)
    }
 

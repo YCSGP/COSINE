@@ -1,3 +1,3 @@
 import(MASS,genalg)
-export(choose_lambda,cond.fyx,DataSimu,diff_gen,diff_gen_for3,f.test,GA_search,get_quantiles,score_scaling)
+export(choose_lambda,cond.fyx,DataSimu,diff_gen,diff_gen_for3,diff_gen_PPI,f.test,GA_search,GA_search_PPI,get_components_PPI,get_quantiles,get_quantiles_PPI,random_network_sampling_PPI,Score_adjust_PPI,score_scaling)
 
